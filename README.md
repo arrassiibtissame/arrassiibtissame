@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hi 👋, I'm Ibtissame Arrassi  
+# Hi 👋, I'm Ibtissame  
 ### Software Engineering Student | Web & Mobile Developer
 
 </div>
