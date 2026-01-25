@@ -66,6 +66,7 @@ I enjoy turning ideas into **clean, scalable, and user-friendly products**, and 
 
 ## 📫 Contact
 - 📧 Email: **ibtissamearrassi2@gmail.com**
+- 💼 LinkedIn:**www.linkedin.com/in/ibtissame-a-87a851306**
 
 
 ---
