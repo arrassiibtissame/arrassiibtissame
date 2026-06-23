@@ -189,11 +189,7 @@ public class Ibtissame {
 
 </div>
 
-<div align="center">
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=arrassiibtissame&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1)](https://github.com/ryo-ma/github-profile-trophy)
-
-</div>
 
 ---
 
