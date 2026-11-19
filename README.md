@@ -26,28 +26,18 @@
 ## 👩‍💻 About Me
 
 ```java
-public class Ibtissame {
 
-    String   name      = "Ibtissame Arrassi";
-    String   location  = "Morocco 🇲🇦";
-    String   education = "BSc Software Engineering — Cyprus International University";
-    String[] roles     = {"Full-Stack Engineer", "AI Enthusiast", "Sustainability-driven Developer"};
+I'm a Software Engineering graduate interested in building practical software solutions that combine full-stack development, AI, and thoughtful system design.
 
-    String[] currentlyBuilding = {
-        "🌱 EcoTrack — Corporate Carbon Footprint Tracker (Java + Spring Boot + React)",
-    };
+- 🎓 BSc in Software Engineering — Cyprus International University (2026)
+- 💻 Experienced in developing full-stack applications using React, TypeScript, Python, Java, and modern backend technologies.
+- 🤖 Interested in AI integration, intelligent automation, and real-world applications.
+- 🚀 Currently developing **FIDOMEK ONE**, a document management and automation system for accounting workflows.
+- 🧤 Developed **SignBridge**, an AI-powered smart glove for real-time sign language recognition.
+- 🌱 Interested in technology that solves meaningful problems.
 
-    String[] skills = {
-        "Building end-to-end full-stack applications",
-        "Designing AI-powered systems",
-        "Connecting software to real-world impact"
-    };
+**Open to junior software engineering opportunities and collaborative projects.**
 
-    String belief = "The most interesting problems in software aren't just technical —";
-    String belief2 = "they're about what that code *changes* in the real world. Climate included.";
-
-    String status = "Open to new opportunities and contributions 🚀";
-}
 ```
 
 ---
@@ -120,58 +110,64 @@ public class Ibtissame {
 
 ## 🚀 Featured Projects
 
-<div align="center">
+<div align="left">
 
-| 🌱 EcoTrack | 🧤 Smart Glove |
-|:---:|:---:|
-| Corporate Carbon Footprint Tracker | AI Sign Language Translator |
-| `Java` `Spring Boot` `PostgreSQL` `React` `Docker` | `React` `FastAPI` `WebSocket` `ESP32` `Supabase` |
-| [![Repo](https://img.shields.io/badge/Repo-100000?style=flat&logo=github)](https://github.com/arrassiibtissame/ecotrack) *(In progress)* | [![Repo](https://img.shields.io/badge/Repo-100000?style=flat&logo=github)](https://github.com/arrassiibtissame/smart-glove) |
 
-| 🔐 PassVault | 🏥 MediBot |
-|:---:|:---:|
-| Full-Stack Password Manager | AI Medical Assistant |
-| `React` `Node.js` `MongoDB` `Docker` `JWT` | `FastAPI` `Streamlit` `Groq` `PostgreSQL` `JWT` |
-| [![Repo](https://img.shields.io/badge/Repo-100000?style=flat&logo=github)](https://github.com/arrassiibtissame/passvault) [![Demo](https://img.shields.io/badge/Demo-46E3B7?style=flat&logo=render)](https://passvault.onrender.com) | [![Repo](https://img.shields.io/badge/Repo-100000?style=flat&logo=github)](https://github.com/arrassiibtissame/medibot) [![Demo](https://img.shields.io/badge/Demo-FF4B4B?style=flat&logo=streamlit)](https://medibot.streamlit.app) |
+### 🧤 SignBridge — AI-Based Smart Glove
 
-</div>
+ >Real-time sign language recognition combining wearable IoT sensors, deep learning, and a full-stack application.
 
-### 🌱 EcoTrack — Corporate Carbon Footprint Tracker *(In progress)*
-> Full-stack sustainability software built around the EU's CSRD reporting requirements
-
-- ⚙️ CO₂ calculation engine using official EU emission factors (electricity, transport, waste)
-- 🔐 Secured REST API with input validation, Swagger documentation and global error handling
-- 📊 Admin dashboard with real-time emission data visualization and monthly goal tracking
-- 🗄️ PostgreSQL persistence with Spring Data JPA and full repository layer
+- 📡 Captures hand gestures using five flex sensors and an MPU6050 connected to ESP32.
+- 🤖 Implements 1D CNN and CNN-LSTM models for static and dynamic gesture recognition.
+- ⚡ Streams sensor data through WebSockets for real-time recognition.
+- 🌍 Supports multiple languages, including Arabic, French, English, and Turkish.
+- 🏆 Presented at the Genç Beyinler Yeni Fikirler KIBRIS competition.
 
 ---
 
-### 🧤 AI-Based Smart Glove — Sign Language Translator *(Capstone)*
-> Real-time sign language recognition using IoT + AI — reducing communication barriers
+### 📂 FIDOMEK ONE — Document Management & Automation
 
-- 📡 Flex sensor + MPU6050 data captured via ESP32, streamed live over WebSocket
-- 🤖 AI gesture recognition model integrated into a real-time full-stack web application
-- 🔐 Authentication and user profile management via Supabase
-- 🏆 Competed against 100+ projects at Genç Beyinler Yeni Fikirler KIBRIS competition
+> A local document management and automation system designed for accounting workflows.
+
+- 📧 Automates Gmail attachment retrieval and document intake.
+- 🗂️ Organizes documents and associates them with client records.
+- 🔐 Implements role-based access and employee-specific client portfolios.
+- 🧪 Includes automated tests, database constraints, and migration management.
+- 🚀 Designed as a foundation for future document classification and WhatsApp integration.
+
+---
+
+### 🌱 EcoTrack — Corporate Carbon Footprint Tracker
+
+> Sustainability-focused software supporting corporate carbon footprint tracking and CSRD-related reporting.
+
+- ⚙️ Calculates emissions using environmental activity data and emission factors.
+- 🔐 Provides a secured REST API with validation and error handling.
+- 📊 Visualizes emissions and monthly sustainability goals.
+- 🗄️ Uses Spring Boot, PostgreSQL, and React.
 
 ---
 
 ### 🔐 PassVault — Full-Stack Password Manager
-> Production-grade password manager — not a tutorial clone, built from scratch
 
-- 🔑 JWT authentication, bcrypt encryption, real-time search, live password strength meter
-- 🐳 Dockerized with multi-stage builds and Nginx reverse proxy, deployed on Render
-- 📱 Fully responsive — desktop sidebar + mobile bottom nav with Framer Motion animations
+> A full-stack password manager focused on secure authentication and usability.
+
+- 🔑 Implements JWT authentication and bcrypt password hashing.
+- 🔎 Includes real-time search and password-strength feedback.
+- 🐳 Uses Docker and Nginx for deployment.
+- 📱 Provides responsive desktop and mobile interfaces.
 
 ---
 
 ### 🏥 MediBot — AI Medical Assistant
-> An AI assistant that knows when to stop giving advice and call emergency services
 
-- 🚨 Emergency symptom detection with real-time redirection to emergency numbers
-- 🧠 10-message memory window for context-aware, personalized responses
-- 🔐 Full backend: prompt engineering, Groq/Llama 3 integration, JWT auth, PostgreSQL
+> An AI-powered assistant combining conversational AI with emergency symptom detection.
 
+- 🚨 Detects potentially urgent symptoms and provides emergency guidance.
+- 🧠 Maintains conversational context for more relevant responses.
+- 🔐 Integrates Groq/Llama 3, JWT authentication, and PostgreSQL.
+- 🖥️ Built with FastAPI and Streamlit.
+</div>
 ---
 
 ## 📊 GitHub Stats
